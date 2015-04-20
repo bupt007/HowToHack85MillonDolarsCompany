@@ -1,0 +1,28 @@
+Hey Luis,
+
+I appreciate you taking the time to send us this report. However, the behavior you're describing is not a security/privacy risk: it's actually a completely intentional design decision.
+
+The crux of the issue here is that clients created using the Parse SDK are being run on client devices (ie: Android phones) but still have to communicate back with Parse's servers to store their data, etc. As you've pointed any client side secret can be reverse-engineered and known eventually, which means that a malicious individual could reverse engineer an app to reveal the keys used to communicate with Parse.
+
+For that reason, the Parse team has always taken the position that client keys are not meant to be secure. This is well documented in the "Data & Security" page on Parse (https://parse.com/docs/data#security-connection):
+
+> When an app first connects to Parse, it identifies itself with an Application ID and a
+> Client key (or REST Key, or .NET Key, or JavaScript Key, depending on which platform you're using).
+> These are not secret and by themselves they do not secure an app. These keys are shipped
+> as a part of your app, and anyone can decompile your app or proxy network traffic from
+> their device to find your client key. This exploit is even easier with JavaScript — one can simply
+> "view source" in the browser and immediately find your client key.
+>
+> This is why Parse has many other security features to help you secure your data. The client key
+> is given out to your users, so anything that can be done with just the client key is doable by the
+> general public, even malicious hackers.
+
+It is also fully documented as part of a tutorial on the Parse blog (http://blog.parse.com/learn/engineering/parse-security-i-are-you-the-key-master/) and in numerous developer questions on the Parse site.
+
+As the documentation suggests, "The overall philosophy is to limit the power of your clients (using client keys), and to perform any sensitive actions requiring the master key in Cloud Code." Given that use of the client keys can not be reasonably restricted, it's the responsibility of developers to configure their application in a way that enforces restrictions on actions that the client should be able to take.
+
+I hope that clarifies things! Please let me know if you have any additional questions. :-)
+
+Neal
+Security
+Facebook
