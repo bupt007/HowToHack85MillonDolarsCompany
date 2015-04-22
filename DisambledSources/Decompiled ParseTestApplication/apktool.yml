@@ -1,0 +1,50 @@
+version: 2.0.0-RC4
+apkFileName: ParseTestApplication.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '14'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'
+compressionType: false
+unknownFiles:
+  allclasses-frame.html: '8'
+  allclasses-noframe.html: '8'
+  constant-values.html: '8'
+  deprecated-list.html: '8'
+  help-doc.html: '8'
+  index-all.html: '8'
+  index.html: '8'
+  overview-tree.html: '8'
+  package-list: '8'
+  serialized-form.html: '8'
+  stylesheet.css: '8'
+  bolts/AggregateException.html: '8'
+  bolts/AppLink.html: '8'
+  bolts/AppLink.Target.html: '8'
+  bolts/AppLinkNavigation.html: '8'
+  bolts/AppLinkNavigation.NavigationResult.html: '8'
+  bolts/AppLinkResolver.html: '8'
+  bolts/AppLinks.html: '8'
+  bolts/Bolts.html: '8'
+  bolts/CancellationToken.html: '8'
+  bolts/CancellationTokenSource.html: '8'
+  bolts/Capture.html: '8'
+  bolts/Continuation.html: '8'
+  bolts/MeasurementEvent.html: '8'
+  bolts/package-frame.html: '8'
+  bolts/package-summary.html: '8'
+  bolts/package-tree.html: '8'
+  bolts/Task.html: '8'
+  bolts/Task.TaskCompletionSource.html: '8'
+  bolts/WebViewAppLinkResolver.html: '8'
+  resources/background.gif: '8'
+  resources/tab.gif: '8'
+  resources/titlebar.gif: '8'
+  resources/titlebar_end.gif: '8'

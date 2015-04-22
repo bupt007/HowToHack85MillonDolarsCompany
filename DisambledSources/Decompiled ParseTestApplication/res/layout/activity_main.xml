@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="center" android:id="@id/editTextEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:hint="Email Address" android:ems="10" android:inputType="textEmailAddress">
+        <requestFocus />
+    </EditText>
+    <Button android:id="@id/buttonExistEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Exist Email" />
+    <Button android:id="@id/buttonUpdateEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Update Email" />
+    <Button android:id="@id/buttonSaveEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Save Email" />
+    <Button android:id="@id/buttonDeleteEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Delete Email" />
+    <Button android:id="@id/buttonDumpTable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Dump Table" />
+    <TextView android:gravity="center" android:id="@id/textViewData" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" />
+</LinearLayout>

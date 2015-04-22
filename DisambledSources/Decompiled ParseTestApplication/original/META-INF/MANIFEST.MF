@@ -1,0 +1,120 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: resources/titlebar_end.gif
+SHA1-Digest: fU25yFEdgb2gjuEgmgEF/dgcrSA=
+
+Name: bolts/AppLink.Target.html
+SHA1-Digest: 1KtCwkSZeJGF65vwRWRw64S8mko=
+
+Name: index-all.html
+SHA1-Digest: Enb5IazfGDhAyeDxi2MSg/0tIrk=
+
+Name: bolts/MeasurementEvent.html
+SHA1-Digest: tLwpiwMgjcAUWQWw8R1x9WqZzxs=
+
+Name: allclasses-frame.html
+SHA1-Digest: MtNcBEgHt9bVYppWPZjXl+wukQ4=
+
+Name: bolts/package-tree.html
+SHA1-Digest: JSsMR8zv/uhHDdhVRFuiX5jvIV0=
+
+Name: resources.arsc
+SHA1-Digest: Z4PdTC/TXieRW2XCh6Lwm7BPJoQ=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: deprecated-list.html
+SHA1-Digest: NKNSx8RjfnWv15LXyADgSRd2mHo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: VN8SFALd8ol2WIVL3GvF72H+bA8=
+
+Name: overview-tree.html
+SHA1-Digest: jXUZ9h7qLfFw+eSZ9mLiBkoOkts=
+
+Name: constant-values.html
+SHA1-Digest: is1Dtuh1PhDBI6ntmzT1QuuKxuA=
+
+Name: bolts/CancellationToken.html
+SHA1-Digest: TqjJUxk4LkCZ9IaxFeGD7WkdOXo=
+
+Name: bolts/Capture.html
+SHA1-Digest: OF0fcNE9tk7uIQ3drVA30ZvWm48=
+
+Name: bolts/AppLinkNavigation.NavigationResult.html
+SHA1-Digest: kjKI26GSbe7iZsvNAYcYluJwOHI=
+
+Name: bolts/AggregateException.html
+SHA1-Digest: ybl/AzP0kmvlq0e123ttnWxQpfw=
+
+Name: bolts/AppLink.html
+SHA1-Digest: +12vjq0Pdq/VuriTknG2CrKimGY=
+
+Name: bolts/Continuation.html
+SHA1-Digest: 4RX821uYQeFxusCVodhnqUrjw08=
+
+Name: bolts/AppLinks.html
+SHA1-Digest: ROtgJ76k/mS61yghmddpyGo77AQ=
+
+Name: package-list
+SHA1-Digest: 6QJRPPqrErmWXCnSadliELYJs64=
+
+Name: bolts/AppLinkNavigation.html
+SHA1-Digest: UqXNIcWPfGdAwlvJ3XY/davBxqQ=
+
+Name: resources/background.gif
+SHA1-Digest: GasMDXsNPOCyk0UziKX6+BCdopc=
+
+Name: allclasses-noframe.html
+SHA1-Digest: +WGx5SVhXi7rw0GDL0Z0+vrS9fk=
+
+Name: bolts/Task.html
+SHA1-Digest: wKjFhaOblImNDjAvyVm5jZuABL4=
+
+Name: bolts/package-summary.html
+SHA1-Digest: VfgOFZD7CsnZUS0beB5bVPdpEJY=
+
+Name: classes.dex
+SHA1-Digest: JqjUZ6JEBRibEsy0DQJBOfFGjUA=
+
+Name: bolts/Bolts.html
+SHA1-Digest: DiY5va0mCVIuCirwOZP3VAfVnFE=
+
+Name: bolts/package-frame.html
+SHA1-Digest: uYagwn+kS/kntlJeOOr7Yve0FbM=
+
+Name: help-doc.html
+SHA1-Digest: oS3hXNeqwCE9RPBmgmcxaOmddbk=
+
+Name: bolts/Task.TaskCompletionSource.html
+SHA1-Digest: GhjKxj6daROPYTo74vlZT5o2iUo=
+
+Name: index.html
+SHA1-Digest: PP7OS8AJp4blwlTZWUTheC3xYeM=
+
+Name: serialized-form.html
+SHA1-Digest: gVkVpJ9mDcMaNTECKf5Vnh1xbRQ=
+
+Name: stylesheet.css
+SHA1-Digest: lkSOwHhdPg6zTe1uBJVxu2P0958=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: f3/RTnEZi4WBMy3OG9Ry1WjKPK4=
+
+Name: resources/tab.gif
+SHA1-Digest: Q0Tj0Y92gAjDJhRoP6tYmz9Mb1A=
+
+Name: bolts/CancellationTokenSource.html
+SHA1-Digest: V1/ww8a02BgnSVJy3pmt6xkFYdk=
+
+Name: resources/titlebar.gif
+SHA1-Digest: 4E7B5mioLrG2v8/BO+8OflOBGoQ=
+
+Name: bolts/WebViewAppLinkResolver.html
+SHA1-Digest: WNUf3L+T2Oiotz5Cr93JjefVwqs=
+
+Name: bolts/AppLinkResolver.html
+SHA1-Digest: eBVWW+CxhKy0CrywQQcgRBFdyG0=
+

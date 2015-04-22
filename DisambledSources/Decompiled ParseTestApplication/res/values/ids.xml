@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="editTextEmail">false</item>
+    <item type="id" name="buttonExistEmail">false</item>
+    <item type="id" name="buttonUpdateEmail">false</item>
+    <item type="id" name="buttonSaveEmail">false</item>
+    <item type="id" name="buttonDeleteEmail">false</item>
+    <item type="id" name="buttonDumpTable">false</item>
+    <item type="id" name="textViewData">false</item>
+</resources>
