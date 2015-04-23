@@ -6,6 +6,7 @@ import java.security.cert.X509Certificate;
 
 import javax.security.auth.x500.X500Principal;
 
+import java.security.MessageDigest;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
@@ -35,16 +36,36 @@ public final class Parse {
 	
 	public static String getCurrentPackage(){
 		return currentPackage;
-	} 
+	}
 	
-	private static final void extractPackage(Context context) throws Exception {
-		currentPackage = context.getApplicationContext().getPackageName(); 
+	private static String hashCurrentPackage = "";
+	
+	public static String getHashCurrentPackage(){
+		return hashCurrentPackage;
+	}
+	
+	private static final String getPackage(Context context) throws Exception {
+		return context.getApplicationContext().getPackageName(); 
 	}
 	
 	private static final X500Principal DEBUG_DN = new X500Principal("CN=Android Debug,O=Android,C=US");
 	
-	private static void extractDebuggable(Context context) throws Exception {
-		isDebuggable = false;
+	private final static String getPackageHash(Context context){
+		String hash = "";
+		try {
+			PackageInfo info = context.getPackageManager().getPackageInfo(context.getPackageName(), PackageManager.GET_SIGNATURES);
+			for (Signature signature : info.signatures) 
+			{
+				MessageDigest md = MessageDigest.getInstance("SHA");
+				md.update(signature.toByteArray());
+				hash = Base64.encodeToString(md.digest(), Base64.DEFAULT);
+			}
+		} catch (Exception e) {}
+		return hash;
+	}
+	
+	private static boolean getDebuggable(Context context) throws Exception {
+		boolean isDebuggable = false;
 	    try {
 	        PackageInfo pinfo = context.getPackageManager().getPackageInfo(context.getPackageName(),PackageManager.GET_SIGNATURES);
 	        Signature signatures[] = pinfo.signatures;
@@ -57,10 +78,11 @@ public final class Parse {
 	        }
 	    }
 	    catch (Exception e) {}
+	    return isDebuggable;
 	}
 	
 	private static final void extractDebuggable2(Context context) throws Exception {
-		PackageManager pm = context.getPackageManager();
+	    PackageManager pm = context.getPackageManager();
 	    ApplicationInfo appinfo = pm.getApplicationInfo(context.getPackageName(), 0);
 	    isDebuggable = (0 != (appinfo.flags & ApplicationInfo.FLAG_DEBUGGABLE));
 	}
@@ -68,8 +90,9 @@ public final class Parse {
 	//here need do some things ...
 	public static void initialize(Context context, String applicationId, String clientKey){
 		try{
-			extractDebuggable(context);
-			extractPackage(context);
+			isDebuggable = getDebuggable(context);
+			currentPackage getPackage(context);
+			hashCurrentPackage getPackageHash(context);
 			
 			/* Here you need if in you system is config in debug mode and 
 			 * which is the package that is allowed to use these keys.
