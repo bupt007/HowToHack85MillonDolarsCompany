@@ -1,4 +1,4 @@
-you need if in you system is config in debug mode and which is the package that is allowed to use these keys.
+You need in you system is config in debug mode and which is the package that is allowed to use these keys.
 
 If you still do not understand, the backend must add two values more, the package is allowed to run these keys and when debug mode must be enabled.
 
