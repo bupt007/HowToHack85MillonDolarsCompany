@@ -8,7 +8,7 @@ The other code, i think you can write (Is not a security risk, yeah right)
 
 Why companies like Facebook and Google have implemented these security policies on their systems, that has not been done in all API's.
 
-![Facebook Develop - Dashboard](http://url/to/img.png)
+![Facebook Develop - Dashboard](https://github.com/JhetoX/HowToHack85MillonDolarsCompany/blob/master/Fix/Facebook%20Develop%20-%20Dashboard.png)
 ![Facebook Develop - Settings](http://url/to/img.png)
 
 ![Google Console](http://url/to/img.png)
