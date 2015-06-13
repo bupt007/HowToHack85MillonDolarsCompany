@@ -8,6 +8,8 @@ The other code, i think you can write (Is not a security risk, yeah right)
 
 Why companies like Facebook and Google have implemented these security policies on their systems, that has not been done in all API's.
 
+Obviously if we will expose the public keys, the first thing to check is the validity of these keys and running on the package or right place, not a fake app.
+
 Facebook Develop - Dashboard
 ![Facebook Develop - Dashboard](https://github.com/JhetoX/HowToHack85MillonDolarsCompany/blob/master/Fix/Facebook%20Develop%20-%20Dashboard.png)
 Facebook Develop - Settings
